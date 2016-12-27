@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/entertainment"
+            android:title="Entertainment" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/catering"
+            android:title="Eat" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/shop"
+            android:title="Shop" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/logout"
+                android:title="Login" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/about"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
