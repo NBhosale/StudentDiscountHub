@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foodies.nero.studentbenefitshub.SplashScreen"
+    android:background="@android:color/holo_blue_bright">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/spalshimage"
+        android:id="@+id/imageView8"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp" />
+</LinearLayout>

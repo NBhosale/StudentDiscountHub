@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.foodies.nero.studentbenefitshub.LoginActivityPage">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewBackground1"
+        android:background="@mipmap/foodiesbackground" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewBackground2"
+        android:background="@mipmap/foodiesbackground"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/common_google_signin_btn_text_light_disabled">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@mipmap/studentdiscountlogo"
+                android:layout_weight="2"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:id="@+id/editTextEmail"
+                android:background="@drawable/roundededitbox"
+                android:layout_weight="1"
+                android:hint="@string/e_mail"
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/holo_blue_dark" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textPassword"
+                android:background="@drawable/roundededitbox"
+                android:ems="10"
+                android:paddingLeft="10dp"
+                android:id="@+id/editTextPassword"
+                android:hint="@string/password"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/holo_blue_dark" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="@string/login"
+                android:layout_weight="0.8"
+                android:id="@+id/buttonLogin"
+                android:layout_marginEnd="90dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:elevation="0dp"
+                android:background="@drawable/drawablebutton"/>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.google.android.gms.common.SignInButton
+                    android:text="@string/google"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/buttonGoogleLogin"
+                    android:textSize="10sp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/roundededitbox">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textViewCreateAccount"
+                        android:text="@string/create_account"
+                        android:layout_weight="1"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="@android:color/holo_green_dark" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/skip"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textViewSkip"
+                android:layout_weight="1"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="bottom|center_horizontal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

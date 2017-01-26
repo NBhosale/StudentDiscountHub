@@ -3,9 +3,34 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="facebook_app_id">356519781396909</string>
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="near_me">Near Me</string>
+    <string name="health_amp_fitness"><![CDATA[Health & Fitness]]></string>
+    <string name="entertainment">Entertainment</string>
+    <string name="eat">Eat</string>
+    <string name="shop">Shop</string>
+    <string name="about">About</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm-Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="already_member_signin">Already Member? SignIn</string>
+    <string name="skip">Skip..</string>
+    <string name="create_account">Create account!</string>
+    <string name="google">Google</string>
+    <string name="login">Login</string>
+    <string-array name="navigation_drawer_items_titles">
+        <item>Home</item>
+        <item>Near Me</item>
+        <item>Health &amp; Fitness</item>
+        <item>Entertainment</item>
+        <item>Eat</item>
+        <item>Shop</item>
+        <item>About</item>
+    </string-array>
 </resources>

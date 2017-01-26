@@ -3,33 +3,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_home"
             android:icon="@mipmap/home"
-            android:title="Home" />
+            android:title="@string/home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_nearme"
+            android:icon="@mipmap/nearme"
+            android:title="@string/near_me" />
+        <item
+            android:id="@+id/nav_health_fitness"
+            android:icon="@mipmap/fitnessandhealth"
+            android:title="@string/health_amp_fitness" />
+        <item
+            android:id="@+id/nav_entertainment"
             android:icon="@mipmap/entertainment"
-            android:title="Entertainment" />
+            android:title="@string/entertainment" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_eat"
             android:icon="@mipmap/catering"
-            android:title="Eat" />
+            android:title="@string/eat" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_shop"
             android:icon="@mipmap/shop"
-            android:title="Shop" />
+            android:title="@string/shop" />
     </group>
 
     <item android:title="Settings">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_login"
                 android:icon="@mipmap/logout"
-                android:title="Login" />
+                android:title="@string/login" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_about"
                 android:icon="@mipmap/about"
-                android:title="About" />
+                android:title="@string/about" />
         </menu>
     </item>
 
